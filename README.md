@@ -18,3 +18,5 @@
 6. After deploying your apps, making changes to the database can be really tricky because you have to log in to the database server and manually update the database tables using SQL commands. **Flask-Migrate** and the **Alembic** libraries used for creating migration scripts.
 
 7. Used **Render.com** for deployments and also deployed a **PostgreSQL** database.
+
+8. Using **gunicorn** to deploy app on **Render.com** for performance reasons
