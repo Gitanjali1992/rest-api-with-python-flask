@@ -1,0 +1,77 @@
+Nov 2 03:49:05 AM  ==> Cloning from https://github.com/Gitanjali1992/rest-api-with-python-flask...
+Nov 2 03:49:06 AM  ==> Checking out commit 0305d2f59d9cd6eed68bbe003c5f7182b60a7522 in branch main
+Nov 2 03:49:11 AM  ==> Downloading cache...
+Nov 2 03:49:27 AM  ==> Transferred 365MB in 13s. Extraction took 0s.
+Nov 2 03:49:30 AM  #1 [internal] load build definition from Dockerfile
+Nov 2 03:49:30 AM  #1 transferring dockerfile: 240B 0.0s done
+Nov 2 03:49:30 AM  #1 DONE 0.1s
+Nov 2 03:49:30 AM  
+Nov 2 03:49:30 AM  #2 [internal] load .dockerignore
+Nov 2 03:49:30 AM  #2 transferring context: 2B done
+Nov 2 03:49:30 AM  #2 DONE 0.1s
+Nov 2 03:49:30 AM  
+Nov 2 03:49:30 AM  #3 [internal] load metadata for docker.io/library/python:3.10
+Nov 2 03:49:31 AM  #3 ...
+Nov 2 03:49:31 AM  
+Nov 2 03:49:31 AM  #4 [auth] library/python:pull token for registry-1.docker.io
+Nov 2 03:49:31 AM  #4 DONE 0.0s
+Nov 2 03:49:31 AM  
+Nov 2 03:49:31 AM  #3 [internal] load metadata for docker.io/library/python:3.10
+Nov 2 03:49:34 AM  #3 DONE 3.4s
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #5 importing cache manifest from local:12852503372483354123
+Nov 2 03:49:34 AM  #5 DONE 0.0s
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #6 [1/5] FROM docker.io/library/python:3.10@sha256:a368af37ef8dda4b4d0e6379e556f6ec67475dfa5ab95efca4c1884952b85c26
+Nov 2 03:49:34 AM  #6 resolve docker.io/library/python:3.10@sha256:a368af37ef8dda4b4d0e6379e556f6ec67475dfa5ab95efca4c1884952b85c26 0.0s done
+Nov 2 03:49:34 AM  #6 DONE 0.0s
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #7 [internal] load build context
+Nov 2 03:49:34 AM  #7 transferring context: 28.25kB 0.0s done
+Nov 2 03:49:34 AM  #7 DONE 0.0s
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #8 [2/5] WORKDIR /app
+Nov 2 03:49:34 AM  #8 CACHED
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #9 [3/5] COPY ./requirements.txt requirements.txt
+Nov 2 03:49:34 AM  #9 CACHED
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #10 [4/5] RUN pip install --no-cache-dir --upgrade -r requirements.txt
+Nov 2 03:49:34 AM  #10 CACHED
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #11 [5/5] COPY . .
+Nov 2 03:49:34 AM  #11 CACHED
+Nov 2 03:49:34 AM  
+Nov 2 03:49:34 AM  #12 exporting to oci image format
+Nov 2 03:49:34 AM  #12 exporting layers done
+Nov 2 03:49:34 AM  #12 exporting manifest sha256:3b62076d64a7b1c389d3916986d6a9cfb166b7402d2095da3ffcdb9f9d87cf39 0.0s done
+Nov 2 03:49:34 AM  #12 exporting config sha256:11f660a7e34ee46cb0dd295466ba7bb962006aa78612e84ee195490d9ea13141 0.0s done
+Nov 2 03:49:39 AM  #12 ...
+Nov 2 03:49:39 AM  
+Nov 2 03:49:39 AM  #11 [5/5] COPY . .
+Nov 2 03:49:39 AM  #11 sha256:ce0a004048778c34abc9927f20bf60a1025b5bccea9cbab03e4b994b37ff8046 8.08kB / 8.08kB 0.1s done
+Nov 2 03:49:39 AM  #11 sha256:53b9ccf13f1fc2852d72901b0242c5a6bdf77a44ae29dde0dfefc31c32abcc30 233B / 233B 0.1s done
+Nov 2 03:49:39 AM  #11 sha256:a7969cffbf46e6a91291fd76b19ecbe93c03ea4ded0d14042aecb4c0c4211a43 54.59MB / 54.59MB 2.8s done
+Nov 2 03:49:39 AM  #11 sha256:4edced8587e6c18412817019074f5e04a8ede4e2fc89d06af13df3f80d78a70d 10.88MB / 10.88MB 0.5s done
+Nov 2 03:49:39 AM  #11 sha256:17c9e6141fdb3387e5a1c07d4f9b6a05ac1498e96029fa3ea55470d4504f7770 55.05MB / 55.05MB 2.7s done
+Nov 2 03:49:39 AM  #11 sha256:de4a4c6caea8801bb0b7377e10220a914da403bc93fa79663cbf2dcf1800b6f1 5.16MB / 5.16MB 0.3s done
+Nov 2 03:49:39 AM  #11 sha256:8c6079935cf44311fd38d83d9312409ae812e95471996b192396b3d8ee77df19 20.04MB / 20.04MB 1.2s done
+Nov 2 03:49:39 AM  #11 sha256:16fe51aed899f36017fe42b598b1a622b29ebe8c3622e92e13df14578825eb37 6.29MB / 6.29MB 0.5s done
+Nov 2 03:49:39 AM  #11 sha256:65af19164dfb7a7b6a77032191b330d3879f3dddd717eff43943f6db33fa9e67 11.09MB / 11.09MB 0.5s done
+Nov 2 03:49:39 AM  #11 sha256:32e2a2ddf208ee6bdea1c38034714271e3456531950f7938e0cbd550956147ed 3.04MB / 3.04MB 0.2s done
+Nov 2 03:49:39 AM  #11 sha256:59e2b96ec079ef26286ae982e8774fe255da105dfdbfa8e4e7fdd31e6226f843 97B / 97B done
+Nov 2 03:49:39 AM  #11 sha256:645006e096d614858a892f8f25f8b8bf47c8e2c64f434474d10ecd96e9f92693 227B / 227B 0.0s done
+Nov 2 03:49:39 AM  #11 sha256:74fbfde6af91271fb88f0a1716224dcce5c0ebead3609943792a9cb6ba4d6d3d 160.43MB / 196.87MB 3.6s
+Nov 2 03:49:40 AM  #11 sha256:74fbfde6af91271fb88f0a1716224dcce5c0ebead3609943792a9cb6ba4d6d3d 177.21MB / 196.87MB 3.9s
+Nov 2 03:49:40 AM  #11 sha256:74fbfde6af91271fb88f0a1716224dcce5c0ebead3609943792a9cb6ba4d6d3d 193.99MB / 196.87MB 4.2s
+Nov 2 03:49:40 AM  #11 sha256:74fbfde6af91271fb88f0a1716224dcce5c0ebead3609943792a9cb6ba4d6d3d 196.87MB / 196.87MB 4.4s done
+Nov 2 03:49:40 AM  #11 DONE 6.5s
+Nov 2 03:49:40 AM  
+Nov 2 03:49:40 AM  #12 exporting to oci image format
+Nov 2 03:49:47 AM  #12 DONE 13.3s
+Nov 2 03:49:47 AM  
+Nov 2 03:49:47 AM  #13 exporting cache
+Nov 2 03:49:47 AM  #13 preparing build cache for export
+Nov 2 03:49:47 AM  #13 DONE 0.2s
+Nov 2 03:49:50 AM  Pushing image to registry...
+Nov 2 03:49:55 AM  DONE
